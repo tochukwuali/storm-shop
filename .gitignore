@@ -2,3 +2,4 @@
 deprecated/**
 deprecated
 node_modules/
+.env
