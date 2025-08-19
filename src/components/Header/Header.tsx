@@ -20,6 +20,8 @@ import WorkRoundedIcon from "@mui/icons-material/WorkRounded";
 import Person2RoundedIcon from "@mui/icons-material/Person2Rounded";
 import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
 import DiamondRoundedIcon from "@mui/icons-material/DiamondRounded";
+import Login from '@mui/icons-material/Login';
+import PersonAdd from '@mui/icons-material/PersonAdd';
 import Logo from "../img/logo512.png";
 
 function App() {
@@ -101,7 +103,7 @@ function App() {
                   <PinkButton
                     sx={buttonStyles}
                     startIcon={
-                      <DiamondRoundedIcon style={{ marginRight: "4px" }} />
+                      <PersonAdd style={{ marginRight: "4px" }} />
                     }
                   >
                     Create Account
@@ -111,7 +113,7 @@ function App() {
                   <BlueButton
                     sx={buttonStyles}
                     startIcon={
-                      <CodeRoundedIcon style={{ marginRight: "4px" }} />
+                      <Login style={{ marginRight: "4px" }} />
                     }
                   >
                     Login Account
